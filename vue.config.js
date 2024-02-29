@@ -7,3 +7,14 @@ module.exports = {
     config.resolve.alias.set("animejs", "animejs/lib/anime.min.js");
   },
 };
+// vue.config.js
+module.exports = {
+  css: {
+    loaderOptions: {
+      css: {
+        // Importez votre fichier CSS principal ici
+        import: "./src/main.css",
+      },
+    },
+  },
+};
