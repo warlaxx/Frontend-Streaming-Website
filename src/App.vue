@@ -1,13 +1,11 @@
 <template>
+  <!-- <NavbarMenu /> -->
   <router-view></router-view>
 </template>
 
 <script>
 export default {
   name: "App",
+  components: {},
 };
 </script>
-
-<style>
-/* Styles globaux pour App.vue */
-</style>
