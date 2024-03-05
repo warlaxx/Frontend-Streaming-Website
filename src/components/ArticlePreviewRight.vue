@@ -6,13 +6,19 @@
       class="article"
     >
       <div class="flex gap-2 pb-1">
-        <p class="text-gray-700" v-if="article">
+        <p class="text-gray-700 font-mono" v-if="article">
           {{ article.published_date }} |
         </p>
-        <p class="text-gray-700" v-if="article">{{ article.byline }}</p>
+        <p class="text-gray-700 font-mono" v-if="article">
+          {{ article.byline }}
+        </p>
       </div>
-      <p class="font-semibold pb-1" v-if="article">{{ article.title }}</p>
-      <p class="text-sm" v-if="article">{{ article.abstract }}</p>
+      <p class="font-semibold pb-1 text-white font-mono" v-if="article">
+        {{ article.title }}
+      </p>
+      <p class="text-sm text-white font-mono" v-if="article">
+        {{ article.abstract }}
+      </p>
     </div>
   </div>
 </template>

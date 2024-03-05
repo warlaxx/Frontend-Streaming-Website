@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center justify-center h-screen">
+  <div class="flex flex-col items-center justify-center h-full bg-red-600">
     <h1 class="text-4xl font-bold mb-4">HOMEPAGE</h1>
     <ArticlePreviewRight class="w-2/6" />
     <ArticlePreviewBottom />
