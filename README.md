@@ -1,4 +1,4 @@
-# vue-frontend-exploration
+# Frontend-Streaming-Website
 
 ## Project setup
 ```
